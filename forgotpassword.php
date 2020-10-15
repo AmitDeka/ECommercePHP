@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AssamKart Forgot Password</title>
+<title>AssamKart</title>
 
 <link rel="stylesheet" href="styles/bootstrap.min.css">
 <link rel="stylesheet" href="styles/style.css">
@@ -47,7 +47,7 @@
                             <input class="form-control rounded-pill border-0 shadow-sm px-4" type="email" name="email" placeholder="Enter Email Address" required value="<?php echo $email?>">
                             
                         </div>
-                        <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm" name="check-email">Continue</button>
+                        <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm btnstyle" name="check-email">Continue</button>
                             <div class=" d-flex align-items-center mt-2">
                                 Don't have an account ?&nbsp;<a href="signup.php">Sign Up</a>
                             </div>

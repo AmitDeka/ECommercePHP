@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AK | Log In</title>
+<title>AssamKart</title>
 
 <link rel="stylesheet" href="styles/bootstrap.min.css">
 <link rel="stylesheet" href="styles/style.css">
@@ -51,13 +51,18 @@
                             <input class="form-control rounded-pill border-0 shadow-sm px-4" type="password" name="password" placeholder="Password" required >
                             
                         </div>
-                        <div class=" form-group mb-3">
-                        <div class=" d-flex align-items-center mt-2">
-                            <a href="forgotpassword.php">Forgot Password</a>
+                        <div class="form-group mb-3">
+                            <div class="floatLeft">
+                                <input type="checkbox" id="rememberMe">
+                                <label class="form-check-label" for="rememberMe">Remember Me</label>
+                            </div>
+                            <div class="floatRight">
+                                <div class=" d-flex align-items-center mt-2">
+                                    <a href="forgotpassword.php">Forgot Password</a>
+                                </div>
                             </div>
                         </div>
-                        
-                        <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm " name="login">Log In</button>
+                        <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm btnstyle" name="login">Log In</button>
                             <div class=" d-flex align-items-center mt-2">
                                 Don't have an account?&nbsp;<a href="signup.php">Sign Up</a>
                             </div>

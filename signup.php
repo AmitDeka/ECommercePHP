@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AssamKart Sign Up</title>
+<title>AssamKart</title>
 
 <link rel="stylesheet" href="styles/bootstrap.min.css">
 <link rel="stylesheet" href="styles/style.css">
@@ -26,8 +26,8 @@
             <div class="container">
                 <div class="row">
                     <div class=" col-lg-10 col-xl-7 mx-auto">
-                        <h3 class="display-4">Create a AssamKart</h3>
-                        <p class="text-muted mb-4">Free Account</p>
+                        <h3 class="display-4">Create a Free</h3>
+                        <p class="text-muted mb-4">AssamKart Account</p>
                         
                         <form action="signup.php" method="POST" autocomplete="off">
                         <?php
@@ -74,7 +74,7 @@
                             <input class="form-control rounded-pill border-0 shadow-sm px-4" type="password" name="cpassword" placeholder="Confirm Password" required >
                             
                         </div>
-                        <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm " name="signup">Sign Up</button>
+                        <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm btnstyle" name="signup">Sign Up</button>
                             
                         <div class=" d-flex align-items-center mt-2">
                                 Already have an account ?&nbsp;<a href="login.php">Log In</a>

@@ -10,7 +10,7 @@ if($email == false){
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AssamKart Code Verify</title>
+<title>AssamKart</title>
 
 <link rel="stylesheet" href="styles/bootstrap.min.css">
 <link rel="stylesheet" href="styles/style.css">
@@ -59,7 +59,7 @@ if($email == false){
                             <input class="form-control rounded-pill border-0 shadow-sm px-4" type="number" name="otp" placeholder="Enter verification code" required>
                             
                         </div>
-                        <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm " name="check">Submit</button>
+                        <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm btnstyle" name="check">Submit</button>
                         </form>
                     </div>
                 </div>
