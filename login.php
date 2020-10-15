@@ -26,8 +26,8 @@
             <div class="container">
                 <div class="row">
                     <div class=" col-lg-10 col-xl-7 mx-auto">
-                        <h3 class=" display-4">Log In</h3>
-                        <p class=" text-muted mb-4">Log on to your account.</p>
+                        <h3 class=" display-4">Sign In to your</h3>
+                        <p class=" text-muted mb-4">AssamKart Account</p>
                         
                         <form action="login.php" method="POST" autocomplete="">
                         <?php
@@ -59,7 +59,7 @@
                         
                         <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm " name="login">Log In</button>
                             <div class=" d-flex align-items-center mt-2">
-                                Don't have an account ?&nbsp;<a href="signup.php">Sign Up</a>
+                                Don't have an account?&nbsp;<a href="signup.php">Sign Up</a>
                             </div>
                         </form>
                     </div>

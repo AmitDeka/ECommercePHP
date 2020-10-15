@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AssamKart | Sign Up</title>
+<title>AssamKart Sign Up</title>
 
 <link rel="stylesheet" href="styles/bootstrap.min.css">
 <link rel="stylesheet" href="styles/style.css">
@@ -26,8 +26,8 @@
             <div class="container">
                 <div class="row">
                     <div class=" col-lg-10 col-xl-7 mx-auto">
-                        <h3 class=" display-4">Sign Up</h3>
-                        <p class=" text-muted mb-4">Create an account to continue on this site.</p>
+                        <h3 class="display-4">Create a AssamKart</h3>
+                        <p class="text-muted mb-4">Free Account</p>
                         
                         <form action="signup.php" method="POST" autocomplete="off">
                         <?php
@@ -75,13 +75,15 @@
                             
                         </div>
                         <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm " name="signup">Sign Up</button>
-                            <div class=" d-flex align-items-center mt-2">
+                            
+                        <div class=" d-flex align-items-center mt-2">
                                 Already have an account ?&nbsp;<a href="login.php">Log In</a>
                             </div>
                         </form>
-                        <div class=" text-center d-flex justify-content-between mt-4">
+                            <div class=" text-center d-flex justify-content-between mt-4">
                         <p>By proceeding to create your account and use AssamKart, you are agreeing to our <a href="https://assamkart.in/tos" class="font-italic text-muted"><u>Terms of Service</u></a>&nbsp;and&nbsp;<a href="https://assamkart.in/privacy" class="font-italic text-muted"><u>Privacy Policy</u></a>.</p>
                         </div>
+                        
                     </div>
                 </div>
             </div>
