@@ -16,7 +16,7 @@
 <header>
 
 </header>
-<div class="container-fluid">
+<div class="container-fluid fadeIn">
 <div class="row no-gutters">
     <!-- Left Half -->
     <div class="col-md-6 d-none d-md-flex bg-image"></div>
@@ -44,24 +44,18 @@
                 }
                 ?>
                         <div class="form-group mb-3">
-                            <input class="form-control rounded-pill border-0 shadow-sm px-4" type="email" name="email" placeholder="Email Address" required value="<?php echo $email?>">
-                            
+                            <input class="form-control rounded-pill border-0 shadow-sm px-4" type="email" name="email" placeholder="Email Address" required value="<?php echo $email?>">   
                         </div>
+
                         <div class="form-group mb-3">
-                            <input class="form-control rounded-pill border-0 shadow-sm px-4" type="password" name="password" placeholder="Password" required >
-                            
+                            <input class="form-control rounded-pill border-0 shadow-sm px-4" type="password" name="password" placeholder="Password" required >    
                         </div>
+
                         <div class="form-group mb-3">
-                            <div class="floatLeft">
-                                <input type="checkbox" id="rememberMe">
-                                <label class="form-check-label" for="rememberMe">Remember Me</label>
-                            </div>
-                            <div class="floatRight">
-                                <div class=" d-flex align-items-center mt-2">
-                                    <a href="forgotpassword.php">Forgot Password</a>
-                                </div>
-                            </div>
-                        </div>
+                            <div class=" d-flex align-items-center mt-2">
+                                <a href="forgotpassword.php">Forgot Password</a>
+                             </div>
+                        
                         <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm btnstyle" name="login">Log In</button>
                             <div class=" d-flex align-items-center mt-2">
                                 Don't have an account?&nbsp;<a href="signup.php">Sign Up</a>

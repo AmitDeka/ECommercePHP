@@ -16,7 +16,7 @@
 <header>
 
 </header>
-<div class="container-fluid">
+<div class="container-fluid fadeIn">
 <div class="row no-gutters">
     <!-- Left Half -->
     <div class="col-md-6 d-none d-md-flex bg-image"></div>
@@ -48,8 +48,8 @@
                             
                         </div>
                         <button type="submit" class=" btn btn-primary btn-block text-uppercase mb-2 rounded-pill shadow-sm btnstyle" name="check-email">Continue</button>
-                            <div class=" d-flex align-items-center mt-2">
-                                Don't have an account ?&nbsp;<a href="signup.php">Sign Up</a>
+                            <div class=" d-flex floatRight">
+                                <a href="signup.php">Back to Sign Up</a>
                             </div>
                         </form>
                     </div>

@@ -16,7 +16,7 @@
 <header>
 
 </header>
-<div class="container-fluid">
+<div class="container-fluid fadeIn">
 <div class="row no-gutters">
     <!-- Left Half -->
     <div class="col-md-6 d-none d-md-flex bg-image"></div>

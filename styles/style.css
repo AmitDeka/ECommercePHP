@@ -2,35 +2,52 @@
     IMPORT FILES
 */
 @import url(responsive.css);
-@import url(bootstrapnav.css)
-/*
-    IMPORT FILES
-*/
+@import url(bootstrapnav.css);
+
+
+/* fonts */
 @font-face{
-    font-family: UbuntuR;
-    src: url(../fonts/UbuntuR.ttf);
+    font-family: UbuntuReg;
+    src: url(../fonts/UbuntuReg.ttf);
+    
 }
+@font-face{
+    font-family: RobotoReg;
+    src: url(../fonts/UbuntuReg.ttf);
+}
+
 /* animation */
 .container-fluid{
-    animation: transIn 0.75s;
+    -webkit-transition-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
 }
-@keyframes transIn{
-    from{
-        opacity: 0;
-        transform: rotateX(-10deg);
-    }
-    to{
-        opacity: 1;
-        transform: rotateX(0); 
-    }
+
+@-webkit-keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.fadeIn{
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
 }
 /* anim */
+
+body{
+    font-family: RobotoReg;
+}
+
 .bg-black{
     background: #000000 !important;
 }
 .asmkart{
-    font-family: UbuntuR;
-    font-size: 10px;
+    font-family: UbuntuReg;
+    font-size: 12px;
     width: 100%;
     display: block;
     text-transform: uppercase;
@@ -46,7 +63,7 @@
 }
 
 .logotext a{
-    font-family: UbuntuB;
+    font-family: UbuntuReg;
     text-transform: uppercase;
     color: #121212;
     letter-spacing: .2em;
@@ -75,5 +92,5 @@
 }
 
 .btnstyle{
-    margin-top: 30px;
+    margin-top: 30px !important;
 }
