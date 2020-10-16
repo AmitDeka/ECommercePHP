@@ -80,7 +80,7 @@
                                 Already have an account ?&nbsp;<a href="login.php">Log In</a>
                             </div>
                         </form>
-                            <div class=" text-center d-flex justify-content-between mt-4">
+                            <div class="text-center  text-muted d-flex justify-content-between mt-4">
                         <p>By proceeding to create your account and use AssamKart, you are agreeing to our <a href="https://assamkart.in/tos" class="font-italic text-muted"><u>Terms of Service</u></a>&nbsp;and&nbsp;<a href="https://assamkart.in/privacy" class="font-italic text-muted"><u>Privacy Policy</u></a>.</p>
                         </div>
                         
@@ -93,4 +93,7 @@
 </div>
 
 </body>
+<footer class="footer_section">
+    <?php include 'includes/footer.php'?>
+</footer>
 </html>

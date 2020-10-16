@@ -38,8 +38,16 @@
 }
 /* anim */
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
+    position: relative;
+    min-height: 100vh;
     font-family: RobotoReg;
+    padding-bottom: 380.8px;
 }
 
 .bg-black{
@@ -66,16 +74,16 @@ body{
     font-family: UbuntuReg;
     text-transform: uppercase;
     color: #121212;
-    letter-spacing: .2em;
-    font-size: 20px;
+    letter-spacing: .1em;
+    font-size: 30px;
     padding: 5px 10px;
     border: 3px solid #121212;
 }
 .logotext a:hover{
     text-decoration: none;
 }
-.logsign, .image{
-    min-height: 100vh;
+.logsign, .bg-image{ 
+   min-height: 90vh;
 }
 
 .bg-image{
@@ -94,3 +102,64 @@ body{
 .btnstyle{
     margin-top: 30px !important;
 }
+
+/* footer design start*/
+.footer_section{
+    /* padding: 20px; */
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer_section .footer_sec_one{
+  background: #151414;
+  border-bottom: 1px solid #707070;
+  padding: 30px 10px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* box-sizing: border-box; */
+}
+
+.footerlogotext a{
+    font-family: RobotoReg;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px 5px;
+    letter-spacing: .1em;
+    border: 3px solid #fff;
+}
+.footerlogotext a:hover{
+    text-decoration: none;
+}
+.footerlogotext p{
+    color: #fff;
+}
+
+.footer_widget{
+
+}
+
+.footer_widget_heading h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer_widget_heading h3::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 3px;
+    width: 50px;
+    background: #ffd700;
+}
+
+.footer_section .footer_sec_two{
+    background: #292828;
+}
+/* footer ends */

@@ -28,5 +28,8 @@
 <header>
 
 </body>
+<footer class="footer_section">
+    <?php include 'includes/footer.php'?>
+</footer>
 
 
