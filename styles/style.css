@@ -40,7 +40,8 @@
 
 body{
     
-    font-family: RobotoReg;;
+    font-family: RobotoReg;
+    min-height: 100vh;
 }
 
 .bg-black{
@@ -107,6 +108,7 @@ body{
   background: #151414;
   border-bottom: 1px solid #707070;
   padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .footerlogotext a{
@@ -136,29 +138,6 @@ body{
     text-transform: uppercase;
 }
 
-/* .follow_us a{
-    color: #fff;
-    font-size: 30px;
-    text-decoration: none;
-} */
- /* .follow_us i{
-    height: 30px;
-    width: 30px;
-    margin: 10px 10px;
-    padding: 5px;
-    text-align: center;
-    transition: 0.5s;
- }
-
- .follow_us i:hover{
-     transform: scale(1.5);
-     
- }
-
- .follow_us .fb_bg i:hover{
-    color: #3B5998;
- } */
-
  /* test */
  .follow_us .btns{
      width: 30px;
@@ -168,7 +147,7 @@ body{
  .follow_us .btns,
  .follow_us .btns::before
  .follow_us .btns .fab{
-     transition: all 0.5s;
+     transition: all 0.7s;
      transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
  }
 
@@ -188,6 +167,34 @@ body{
  .follow_us .btns.fb .fab{
      color: #3b5998;
  }
+
+ .follow_us .btns.insta::before{
+    background-color: #bf00ff;
+}
+.follow_us .btns.insta .fab{
+    color: #bf00ff;
+}
+
+.follow_us .btns.twt::before{
+    background-color: #00aff0;
+}
+.follow_us .btns.twt .fab{
+    color: #00aff0;
+}
+
+ .follow_us .btns:focus::before,
+ .follow_us .btns:hover::before{
+     top: -10%;
+     left: -10%;
+
+ }
+ .follow_us .btns:focus .fab,
+ .follow_us .btns:hover .fab{
+     color: #fff;
+     -webkit-transform: scale(1);
+     transform: scale(1);
+ }
+
  .follow_us .btns{
      display: inline-block;
      background-color: #fff;
@@ -198,25 +205,25 @@ body{
      text-align: center;
      position: relative;
      overflow: hidden;
-     border-radius: 30%;
+     border-radius: 28%;
      box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
  }
  .follow_us .btns::before{
      content: "";
-     width: 120%;
-     height: 120%;
+     width: 125%;
+     height: 125%;
      position: absolute;
      -webkit-transform: rotate(45deg);
      transform: rotate(45deg);
  }
 .follow_us .btns .fab{
-    font-size: 30px;
+    font-size: 25px;
     vertical-align: middle;
 }
  /* test */
 
 .footer_widget ul li{
-    display: flex;
+    display: inline;
     width: 100%;
     float: left;
     color: white;
@@ -262,5 +269,25 @@ body{
 
 .footer_section .footer_sec_two{
     background: #292828;
+    padding: 20px;
+    border-bottom: 1px solid #707070;
 }
+.footer_section .footer_sec_two p{
+    color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+.footer_section .footer_sec_three{
+    background-color: #121212;;
+    padding: 30px;
+}
+.footer_section .footer_sec_three p{
+    color: #fff;
+}
+.footer_section .footer_sec_three i{
+    color: #fff;
+    padding: 5px;
+}
+
 /* footer ends */

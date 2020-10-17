@@ -60,9 +60,26 @@
     </div>
 </div>
 <div class="footer_sec_two">
-    <P>loxs samvcjch samcshc csgcjsabcsa fustduasd fas d</P>
+    <div>
+        <p>Download Our App</p>
+    </div>
 </div>
 <div class="footer_sec_three">
-    <P>loxs samvcjch samcshc csgcjsabcsa fustduasd fas d</P>
+    <!-- <div class="container"> -->
+    <!-- <div class="row"> -->
+    <div class="col-md-6">
+            <p>Designed &amp; Developed by <a href="http://github.com/AmitDeka" target="_blank">Amit</a></p>
+        </div>
+        <div class="col-md-6">
+            <i class="fab fa-cc-mastercard"></i>
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-paypal"></i>
+            <i class="fab fa-google-pay"></i>
+        </div>
+    <!-- </div> -->
+
+    <!-- </div> -->
+    
+        
 </div>
 
