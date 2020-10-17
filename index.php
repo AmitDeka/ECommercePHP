@@ -26,10 +26,10 @@
 <header class="main-header">
     <?php include 'includes/main_header.php'?>
 <header>
-
+    <footer class="footer_section">
+        <?php include 'includes/footer.php'?>
+    </footer>
 </body>
-<footer class="footer_section">
-    <?php include 'includes/footer.php'?>
-</footer>
+
 
 

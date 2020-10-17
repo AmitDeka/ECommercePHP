@@ -92,8 +92,9 @@
 </div>
 </div>
 
+    <footer class="footer_section">
+        <?php include 'includes/footer.php'?>
+    </footer>
 </body>
-<footer class="footer_section">
-    <?php include 'includes/footer.php'?>
-</footer>
+
 </html>
